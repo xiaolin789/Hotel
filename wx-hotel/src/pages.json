@@ -1,0 +1,135 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/category/category",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/food/food",
+			"style" : 
+			{
+				"navigationBarTitleText" : "菜品",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/mine/mine",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/details/details",
+			"style" : 
+			{
+				"navigationBarTitleText" : "客房详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/foodDetails/details",
+			"style" : 
+			{
+				"navigationBarTitleText" : "菜品详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/info/info",
+			"style" : 
+			{
+				"navigationBarTitleText" : "填写信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/foodInfo/info",
+			"style" : 
+			{
+				"navigationBarTitleText" : "填写信息",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/order/order",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/foodOrder/order",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/suggest/suggest",
+			"style" : 
+			{
+				"navigationBarTitleText" : "反馈意见",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/auth/auth",
+			"lazyCodeLoading":"requiredComponents",
+			"style" : 
+			{
+				"navigationBarTitleText" : "登录",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "酒店预订小程序",
+		"navigationBarBackgroundColor": "#009688",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#009688",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/shouye1.png",
+			"selectedIconPath": "static/shouye.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/category/category",
+			"iconPath": "static/icon1.png",
+			"selectedIconPath": "static/icon.png",
+			"text": "分类"
+		}, 
+		{
+			"pagePath": "pages/food/food",
+			"iconPath": "static/caipin.png",
+			"selectedIconPath": "static/caipin1.png",
+			"text": "菜品"
+		},
+		{
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/wode1.png",
+			"selectedIconPath": "static/wode.png",
+			"text": "我的"
+		}]
+	}
+
+}
